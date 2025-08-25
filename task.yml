@@ -6,9 +6,9 @@
   gather_facts: yes
 
   tasks:
-    - name: install httpd
+    - name: install mysql
       yum:
-        name: httpd
+        name: mysql
         state: present
 
 
